@@ -1,0 +1,41 @@
+/* src/components/VoiceControl.css */
+
+.voice-control {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .voice-control-text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .spoken-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #bae7ff;
+    border-radius: 4px;
+  }
+  
+  .toggle-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
